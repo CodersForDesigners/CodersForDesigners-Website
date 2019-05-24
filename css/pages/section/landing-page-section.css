@@ -1,0 +1,119 @@
+/*
+ * Landing Page Section
+ */
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1480px ) {}
+
+.landing-page-section {}
+
+.landing-page-section ol { list-style: decimal; }
+.landing-page-section ol li {
+	padding-bottom: var(--space-quarter);
+	margin: 0;
+}
+
+.landing-page-section .factions-img {
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 220px;
+}
+
+@media( min-width: 640px )  {
+	.landing-page-section .factions-img {
+		height: 260px;
+	}
+}
+@media( min-width: 1040px ) {}
+@media( min-width: 1480px ) {
+	.landing-page-section .factions-img {
+		height: 360px;
+	}
+}
+
+.landing-page-section .portfolio ol li {
+	padding-bottom: var(--space-min);
+}
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.landing-page-section .benefits ol {
+		padding-right: var(--space-double);
+	}
+}
+@media( min-width: 1480px ) {}
+
+
+
+
+.landing-page-section .action,
+.landing-page-section .action .name,
+.landing-page-section .action .phone,
+.landing-page-section .action .email {
+	position: relative;
+}
+
+.landing-page-section .action .name input,
+.landing-page-section .action .phone input,
+.landing-page-section .action .email input {
+	padding-right: 36px;
+}
+
+.landing-page-section .action .name:after,
+.landing-page-section .action .phone:after,
+.landing-page-section .action .email:after {
+	content: '';
+	display: block;
+	height: 38px;
+	width: 32px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-size: 18px 18px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.landing-page-section .action .name:after { background-image: url('/media/glyph/icon-person.svg'); }
+.landing-page-section .action .phone:after { background-image: url('/media/glyph/icon-phone.svg'); }
+.landing-page-section .action .email:after { background-image: url('/media/glyph/icon-email.svg'); }
+
+.landing-page-section .action .column,
+.landing-page-section .action .columns {
+	margin-bottom: 15px;
+}
+
+
+@media( min-width: 640px )  {}
+
+@media( min-width: 1040px ) {
+	.landing-page-section .action .name input,
+	.landing-page-section .action .phone input,
+	.landing-page-section .action .email input {
+		padding-right: 42px;
+	}
+	.landing-page-section .action .name:after,
+	.landing-page-section .action .phone:after,
+	.landing-page-section .action .email:after {
+		height: 42px;
+		width: 38px;
+		background-size: 20px 20px;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.landing-page-section .action .name input,
+	.landing-page-section .action .phone input,
+	.landing-page-section .action .email input {
+		padding-right: 56px;
+	}
+	.landing-page-section .action .name:after,
+	.landing-page-section .action .phone:after,
+	.landing-page-section .action .email:after {
+		height: 60px;
+		width: 46px;
+		background-size: 24px 24px;
+	}
+}
