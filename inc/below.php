@@ -16,7 +16,7 @@
 
 	<!--  ☠  MARKUP ENDS HERE  ☠  -->
 
-	<?php lazaro_disclaimer(); ?>
+	<?php //lazaro_disclaimer(); ?>
 
 
 
