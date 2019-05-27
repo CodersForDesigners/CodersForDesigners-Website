@@ -31,7 +31,7 @@ else
  * Get the title and URL of the website and current page
  */
 // $siteUrl = getSiteUrl();
-$siteTitle = getContent( 'CodersForDesigners &lt;/&gt;', 'site_title' );
+$siteTitle = getContent( 'Coders for Designers &lt;/&gt; We turn your Designs into Code', 'site_title' );
 $pageUrl = $siteUrl . $urlPath;
 $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 
@@ -57,7 +57,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	- -->
 	<!-- Short description of the document (limit to 150 characters) -->
 	<!-- This content *may* be used as a part of search engine results. -->
-	<meta name="description" content="<?php echo getContent( '', 'description' ); ?>">
+	<meta name="description" content="<?php echo getContent( 'We have nearly a decade\'s worth of experience in designing as well as coding websites. A process we have refined over numerous projects that positively affects the quality of our products, the development time and as a result, the cost of our service.', 'description' ); ?>">
 	<!-- Short description of your document's subject -->
 	<meta name="subject" content="<?php echo getContent( '', 'subject' ); ?>">
 
@@ -138,15 +138,15 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta property="og:url" content="<?php echo $pageUrl ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?php echo $pageTitle ?>">
-	<meta property="og:image" content="<?php echo getContent( '', 'og -> image' ) ?>">
-	<meta property="og:description" content="<?php echo getContent( '', 'og -> description' ) ?>">
-	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
+	<meta property="og:image" content="<?php echo getContent( 'media/social.jpg', 'og -> image' ) ?>">
+	<meta property="og:description" content="<?php echo getContent( 'We have nearly a decade\'s worth of experience in designing as well as coding websites. A process we have refined over numerous projects that positively affects the quality of our products, the development time and as a result, the cost of our service.', 'og -> description' ) ?>">
+	<meta property="og:site_name" content="<?php echo getContent( 'Coders for Designers', 'site_title' ) ?>">
 
 
 	<!-- Schema.org / Google+ -->
 	<meta itemprop="name" content="<?php echo $pageTitle ?>">
-	<meta itemprop="description" content="<?php echo getContent( 'This is a website', 'schema -> description' ) ?>">
-	<meta itemprop="image" content="<?php echo getContent( '', 'schema -> image' ) ?>">
+	<meta itemprop="description" content="<?php echo getContent( 'We have nearly a decade\'s worth of experience in designing as well as coding websites. A process we have refined over numerous projects that positively affects the quality of our products, the development time and as a result, the cost of our service.', 'schema -> description' ) ?>">
+	<meta itemprop="image" content="<?php echo getContent( 'media/social.jpg', 'schema -> image' ) ?>">
 
 	<!--
 	*
