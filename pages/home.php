@@ -100,7 +100,7 @@
 							<div class="columns small-12 medium-6 space-min">
 								<label class="block phone">
 									<span class="visuallyhidden">Phone</span>
-									<input class="block p" type="text" placeholder="Mobile Number" name="phone-number">
+									<input class="block p" type="text" placeholder="Mobile Number" name="phoneNumber">
 								</label>
 							</div>
 						</div>
@@ -116,6 +116,11 @@
 									<span class="visuallyhidden">Submit</span>
 									<button class="button block fill-blue js_form_submit" type="submit">Request A Call Back</button>
 								</label>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="columns small-12 space-min">
+								<div class="h6 js_feedback_message"></div>
 							</div>
 						</div>
 					</form>
