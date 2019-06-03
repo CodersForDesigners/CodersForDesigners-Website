@@ -82,6 +82,8 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
 	<!-- Verify website ownership -->
 	<meta name="google-site-verification" content="<?php echo getContent( 'gkvpBPv3gaRIpwXVIUaTjbQcT3x_Df9bqBoxl6oTZSA', 'google_site_verification_token' ); ?>"><!-- Google Search Console -->
+	<!-- Another one these, for the aliasing the email -->
+	<meta name="google-site-verification" content="duIvVE-wsOF9uPcybotVVXVcigV5OjRmV6L-7UKkdSs">
 
 
 	<!--
