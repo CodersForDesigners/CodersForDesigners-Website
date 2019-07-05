@@ -154,12 +154,12 @@
 							</a>
 						</li>
 						<li class="label">
-							<a class="h5 text-green" href="https://livingwalls.in/secret-soil/" target="_blank">LivingWalls - Secret Soil
+							<a class="h5 text-green" href="https://livingwalls.in/secret-soil/" target="_blank">LivingWalls - Another Sky
 								<img class="block" width="1280" height="720" src="media/portfolio/LW-AnotherSky.gif<?php $ver ?>">
 							</a>
 						</li>
 						<li class="label">
-							<a class="h5 text-green" href="https://livingwalls.in/another-sky/" target="_blank">LivingWalls - Another Sky
+							<a class="h5 text-green" href="https://livingwalls.in/another-sky/" target="_blank">LivingWalls - Secret Soil
 								<img class="block" width="1280" height="720" src="media/portfolio/LW-SecretSoil.gif<?php $ver ?>">
 							</a>
 						</li>
