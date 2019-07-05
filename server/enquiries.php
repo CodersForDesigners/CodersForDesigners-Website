@@ -136,7 +136,6 @@ try {
 	$status = Mailer\send( 'mario@lazaro.in', $subject, $message, [ 'adi@lazaro.in' ] );
 	$response[ 'statusCode' ] = 0;
 	$response[ 'message' ] = 'Enquiry made.';
-	die( json_encode( $response ) );
 }
 catch ( \Exception $e ) {
 
@@ -150,3 +149,5 @@ catch ( \Exception $e ) {
 	http_response_code( 500 );
 
 }
+// Finally, respond back to the client
+die( json_encode( $response ) );
