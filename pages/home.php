@@ -115,85 +115,97 @@
 					<ol class="text-neutral">
 						<li class="label">
 							<a class="h5 text-blue" href="http://bagpacksuites.com/" target="_blank">Bagpack Suites
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Bagpack-Suites.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Bagpack-Suites.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Bagpack-Suites.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Bagpack-Suites.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://bigbadbikes.com/store/" target="_blank">Big Bad Bikes
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/BigBadBikes.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/BigBadBikes.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/BigBadBikes.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/BigBadBikes.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="http://canterburycastles.com/" target="_blank">Canterbury Castles
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Canterbury-Castles.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Canterbury-Castles.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Canterbury-Castles.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Canterbury-Castles.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="http://dasta.in/" target="_blank">Dasta
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Dasta.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Dasta.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Dasta.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Dasta.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://designcartel.in/" target="_blank">Design Cartel
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Design-Cartel.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Design-Cartel.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Design-Cartel.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Design-Cartel.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://immersionindia.com/" target="_blank">Immersion India
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Immersion-India.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Immersion-India.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Immersion-India.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Immersion-India.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://klassikbuild.com/landmark/" target="_blank">Klassik Landmark
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Klassik-Landmark.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Klassik-Landmark.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Klassik-Landmark.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Klassik-Landmark.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://lazaro.in/" target="_blank">Lazaro
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Lazaro.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Lazaro.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Lazaro.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Lazaro.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://livingwalls.in/secret-soil/" target="_blank">LivingWalls - Another Sky
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/LW-SecretSoil.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/LW-SecretSoil.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/LW-SecretSoil.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/LW-SecretSoil.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="https://livingwalls.in/another-sky/" target="_blank">LivingWalls - Secret Soil
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/LW-AnotherSky.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/LW-AnotherSky.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/LW-AnotherSky.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/LW-AnotherSky.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="http://qwikspec.com/" target="_blank">Qwikspec
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Qwikspec.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Qwikspec.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Qwikspec.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Qwikspec.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>
 						<li class="label">
 							<a class="h5 text-blue" href="http://lawns.zotra.in/" target="_blank">Zotra - Lawns
-								<video class="block" loop="" muted="" playsinline="" autoplay="">
-									<source src="media/portfolio/Zotra-Lawns.mp4<?php $ver ?>" type="video/mp4">
+								<img class="show-for-small" src="media/portfolio/png/Zotra-Lawns.png<?php $ver ?>">
+								<video class="block hide-for-small" loop="" muted="" playsinline="" poster="media/portfolio/png/Zotra-Lawns.png<?php $ver ?>">
+									<source src="media/portfolio/mp4/Zotra-Lawns.mp4<?php $ver ?>" type="video/mp4">
 								</video>
 							</a>
 						</li>

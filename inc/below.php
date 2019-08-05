@@ -40,6 +40,17 @@
 			//
 		} );
 
+
+		/*
+		 * Video Playback on Hover
+		 */
+		
+		$('.portfolio a').mouseenter( function() {
+			$(this).find( 'video' ).get(0).play();
+		} ).mouseleave( function() {
+			$(this).find( 'video' ).get(0).pause();
+		} );
+
 	</script>
 
 	<!-- Other Modules -->
