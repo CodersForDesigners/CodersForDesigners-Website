@@ -16,8 +16,8 @@ function send ( $to, $subject, $body, $toCC = [ ] ) {
 
 	date_default_timezone_set( 'Asia/Kolkata' );
 
-	$username = '';
-	$password = '';
+	$username = 'google@lazaro.in';
+	$password = 't34m,l4z4r0';
 	$fromEmail = $username;
 	$fromName = 'Bots for Coders';
 	$toEmail = $to;
